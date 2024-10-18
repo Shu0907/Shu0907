@@ -1,0 +1,117 @@
+[
+	{
+		"Name": "SR",
+		"DBVersion": 1,
+
+		"Works": [
+			{
+				"Name": "WG01-Work01",
+				"AffectDate": "20230318",
+
+				"AffixContentType": -1,
+				"AffixContent": "",
+
+				"Remarks": "仕業に対する注意事項を記載する",
+
+				"HasETrainTimetable": false,
+				"ETrainTimetableContentType": -1,
+				"ETrainTimetableContent": "",
+
+				"Trains": [
+					{
+						"TrainNumber": "0281",
+						"MaxSpeed": "130km",
+						"SpeedType": "特急",
+						"NominalTractiveCapacity": "5M4T",
+						"CarCount": 9,
+						"Destination": "豊江津（引上）",
+						"BeginRemarks": "乗継",
+						"AfterRemarks": "ー",
+						"Remarks": "停車駅注意",
+						"BeforeDeparture": "はこね81号解放(前3両）",
+						"TrainInfo": "スノーアクティー81号",
+						"Direction": 1,
+						"WorkType": 0,
+						"AfterArrive": "着後作業",
+						"BeforeDeparture_OnStationTrackCol": "「発前」のうち、着発番線と同じ行に記載されている内容",
+						"AfterArrive_OnStationTrackCol": "「着後」のうち、着発番線と同じ行に記載されている内容",
+						"DayCount": 0,
+						"IsRideOnMoving": false,
+						"Color": "2255BB",
+
+						"TimetableRows": [
+							{
+								"StationName": "新岩切鷲沼",
+								"Location_m": 1.0,
+								"Longitude_deg": 135,
+								"Latitude_deg": 38,
+								"OnStationDetectRadius_m": 300,
+								"FullName": "Station Name (Number: 01)",
+								"RecordType": 0,
+
+								"TrackName": "３",
+
+								"DriveTime_MM": 1,
+								"DriveTime_SS": 25,
+								"IsOperationOnlyStop": false,
+								"IsPass": false,
+								"HasBracket": false,
+								"IsLastStop": false,
+								"Arrive": "13:10:56",
+								"Departure": "13:17:35",
+								"Remarks": "各駅の注意事項を記載する",
+								"MarkerColor": "3366CC",
+								"MarkerText": "停車",
+								"WorkType": 0
+							},
+							{
+								"StationName": "てんざ",
+								"Location_m": 1.1
+							},
+							{
+								"StationName": "松田尾",
+								"Location_m": 1.2
+							}
+							{
+								"StationName": "富士川高杉",
+								"Location_m": 1.3
+							},
+							{
+								"StationName": "しろべ",
+								"Location_m": 1.4
+							}
+							{
+								"StationName":七日町 "",
+								"Location_m": 1.5		
+								"DriveTime_MM": 1,
+								"DriveTime_SS": 25,
+								"IsOperationOnlyStop": false,
+								"IsPass": false,
+								"HasBracket": false,
+								"IsLastStop": false,
+								"Arrive": "13:53:56",
+								"Departure": "13:55:35",
+							},
+							{
+								"StationName": "スキー場",
+								"Location_m": 1.6
+							}
+							{
+								"StationName": "てんざ",
+								"Location_m": 1.7
+							},
+							{
+		
+								"StationName":豊江津 "",
+								"Location_m": 1.5		
+								"DriveTime_MM": 1,
+								"DriveTime_SS": 25,
+								"IsOperationOnlyStop": false,
+								"IsPass": false,
+								"HasBracket": false,
+								"IsLastStop": false,
+								"Arrive": "14:09:56",
+								"Departure": "14:15:35",
+
+	]
+				
